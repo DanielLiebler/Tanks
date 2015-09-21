@@ -155,7 +155,7 @@ public class Screendrawer{
       //Fog dritte Variante:
       ///*
       if (fog) {
-        aktFrameDrawer.drawImage(FogHole.getFog(TextureManager.getTexture("fog_of_war.png", Main.getMyWindow().getWidth(), Main.getMyWindow().getHeight(), false), holes, fog_changed, true),0,0,screenBufferObserver);
+        aktFrameDrawer.drawImage(FogHole.getFog(TextureManager.getTexture("fog_of_war.png", Main.getMyWindow().getWidth(), Main.getMyWindow().getHeight(), false), holes, fog_changed, false),0,0,screenBufferObserver);
         if (fog_changed) fog_changed = false;   
       }      //*/
       

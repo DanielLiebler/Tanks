@@ -60,7 +60,7 @@ public class Tank extends GameObject{
     if(moving){
       if ( (end[0]-(this.getCollisionBoxPos()[0] + this.getCollisionBoxSize()[0]/2))/movement[0] > 0 && (end[1]-(this.getCollisionBoxPos()[1] + this.getCollisionBoxSize()[1]/2))/movement[1] > 0 ) {
         this.setPos((float)(getPos()[0] + movement[0]*timeMultiplier), (float)(getPos()[1] + movement[1]*timeMultiplier));  
-        PlayerManager.getActPlayer().changeFog();
+        //PlayerManager.getActPlayer().changeFog();
       } else {
         moving = false;
         this.setCollisionBoxPos((float)(end[0] - this.getCollisionBoxSize()[0]/2), (float)(end[1] - this.getCollisionBoxSize()[1]/2));    

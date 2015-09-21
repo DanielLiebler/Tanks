@@ -7,7 +7,6 @@ import java.awt.event.*;
 import java.util.*;
 
 public class Player implements Animation{
-  private static final double speed = 0.01;
   public static final int MODE_IDLE = 0;   
   public static final int MODE_DRIVE = 1;
   public static final int MODE_SHOOT = 2;  
@@ -17,6 +16,7 @@ public class Player implements Animation{
   
   public static final float driveDis = 0.1f;
   
+  private static final double speed = 0.002;
   private double aimSpeed = Math.PI/100;
   private double aimRads = 0;
   private double aimSize = Math.PI/2;
