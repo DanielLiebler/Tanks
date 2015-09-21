@@ -10,7 +10,7 @@ import java.util.*;
 
 public class Tank extends GameObject{
   
-  public static final double SELECTED_ROT_SPEED = Math.PI * 0.02;
+  public static final double SELECTED_ROT_SPEED = Math.PI * 0.01;
   
   protected static BufferedImage textureSelected;
   protected double selectedRot;

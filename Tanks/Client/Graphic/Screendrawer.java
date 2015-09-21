@@ -217,5 +217,8 @@ public class Screendrawer{
     Color c = new Color(0,0,0,0);
     bi.setRGB(mid[0],mid[1],c.getRGB()); 
   }
+  public ArrayList<GUIElement> getGUI(){
+    return guiElements;
+  }
 }
 

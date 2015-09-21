@@ -1,9 +1,11 @@
 package Tanks.Client.Graphic;
 
+import java.util.*;
 import java.awt.*;
 import java.awt.event.*;
 import Tanks.Client.Log;
-import Tanks.Client.Main;
+import Tanks.Client.Main; 
+import Tanks.Client.Objects.Gui.GUIElement;
 import Tanks.Client.PlayerSystems.*;
 
 
@@ -90,6 +92,12 @@ public class Window extends Frame {
   
   public void window_MouseClicked(MouseEvent evt) {
     Log.write("Mouse clicked: " + evt.toString(), Log.LOGDEPTH_NONE);
+    ArrayList<GUIElement> guiElements = Main.getSD().getGUI();
+    
+    for (int i = 0; i < guiElements.size(); i++) {
+      
+    } // end of for
+    
     PlayerManager.click(evt);
   } // end of window_MouseClicked
   

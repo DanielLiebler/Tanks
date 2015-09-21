@@ -60,13 +60,7 @@ public class Main{
   }
   public static void startGame(int localplayers, int[][] playercolors, int tankcount, String[] names, float szx, float szy){    
     //test ini
-    ArrayList<String> text = new ArrayList<String>();
-    text.add("Hallo");                                               
-    text.add("Welt");
-    text.add("Hallo");                          
-    text.add("Welt");
-    GUIElement g1 = new GUIElement(0f,0f,0.4f,0.4f,true,text);//, TextureManager.getTexture("gras.png", (int)(0.4*Main.getMyWindow().getWidth()), (int)(0.4*Main.getMyWindow().getHeight())));  
-    sd.addGui(g1); 
+    sd.addGui(new GUIElement(0f,0f,0.4f,0.4f,true,new String[]{"Hallo Welt", "Hello World"}));  
     
     
     //real ini
