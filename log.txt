@@ -1,0 +1,144 @@
+---18.34.43 21.09.2015--Log: Game started
+---18.34.43 21.09.2015--Log: Creating Window: Window, Fullscreen: true, Size: 1920,1080
+---18.34.43 21.09.2015--Log: loadMap('Saves\Level1.txt') of Gamefield Tanks.Client.Objects.Ingame.Gamefield@4eec7777
+---18.34.43 21.09.2015--Log: Tank added
+---18.34.43 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@3b07d329 r:0, g:0, b:255
+---18.34.43 21.09.2015--Log: Textur(tex/select.png) geladen
+---18.34.43 21.09.2015--Log: rescaling Texture(BufferedImage@4fca772d: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.43 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.43 21.09.2015--Log: rescaling Texture(BufferedImage@1b2c6ec2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@cc34f4d: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5e9f23b4: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@7e6cbb7a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@76fb509a r:0, g:0, b:255
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@4d405ef7: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@1a6c5a9e: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@20ad9418: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@2e0fa5d3: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@238e0d81 r:0, g:0, b:255
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@728938a9: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@246b179d: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@306a30c7: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@2b71fc7e: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@506c589e r:0, g:0, b:255
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@799f7e29: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@42110406: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@4b9af9a9: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@46fbb2c1: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@14514713 r:0, g:0, b:255
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@4459eb14: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@2328c243: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@736e9adb: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5fa7e7ff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@23ab930d r:0, g:0, b:255
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@619a5dff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@b1a58a3: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@46ee7fe8: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@4f2410ac: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@22927a81 r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@61e4705b: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@deb6432: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@6aa8ceb6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@3b95a09c: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@61e717c2 r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@4e515669: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@3b764bce: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@6bf2d08e: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@3f8f9dd6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@726f3b58 r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@15615099: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@41975e01: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@3d012ddd: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5e91993f: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@156643d4 r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@1175e2db: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@53bd815b: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@3830f1c0: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5aaa6d82: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@782830e r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@33833882: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5fdef03a: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@5ccd43c2: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@2c13da15: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Tank added
+---18.34.44 21.09.2015--Log: Painting Tank: Tanks.Client.Objects.Ingame.Tank@16f65612 r:0, g:255, b:0
+---18.34.44 21.09.2015--Log: Textur(tex/tank.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@ed17bee: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/tank_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@2aae9190: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@71bc1ae4: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Textur(tex/turret_color.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@7b1d7fff: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 228 height = 228 #numDataElements 4 dataOff[0] = 3) to 172/172
+---18.34.44 21.09.2015--Log: Gameloop started
+---18.34.44 21.09.2015--Log: Rendering Gamefield
+---18.34.44 21.09.2015--Log: Textur(tex/gras.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@1055e4af: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2) to 1920/1080
+---18.34.44 21.09.2015--Log: Textur(tex/fog_of_war.png) geladen
+---18.34.44 21.09.2015--Log: rescaling Texture(BufferedImage@567d299b: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@9807454 transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 480 height = 256 #numDataElements 3 dataOff[0] = 2) to 1920/1080
+---18.34.46 21.09.2015--Log: Mouse pressed: java.awt.event.MouseEvent[MOUSE_PRESSED,(825,478),absolute(825,478),button=1,modifiers=Button1,extModifiers=Button1,clickCount=1] on panel0
+---18.34.46 21.09.2015--Log: Mouse released: java.awt.event.MouseEvent[MOUSE_RELEASED,(825,478),absolute(825,478),button=1,modifiers=Button1,clickCount=1] on panel0
+---18.34.46 21.09.2015--Log: Mouse clicked: java.awt.event.MouseEvent[MOUSE_CLICKED,(825,478),absolute(825,478),button=1,modifiers=Button1,clickCount=1] on panel0
+---18.34.46 21.09.2015--Log: Player recieved Click
+---18.34.46 21.09.2015--Log: Found Tank
+---18.34.47 21.09.2015--Log: Key pressed: java.awt.event.KeyEvent[KEY_PRESSED,keyCode=49,keyText=1,keyChar='1',keyLocation=KEY_LOCATION_STANDARD,rawCode=49,primaryLevelUnicode=49,scancode=2,extendedKeyCode=0x31] on panel0
+---18.34.48 21.09.2015--Log: Mouse pressed: java.awt.event.MouseEvent[MOUSE_PRESSED,(865,598),absolute(865,598),button=3,modifiers=Meta+Button3,extModifiers=Button3,clickCount=1] on panel0
+---18.34.48 21.09.2015--Log: Mouse released: java.awt.event.MouseEvent[MOUSE_RELEASED,(865,598),absolute(865,598),button=3,modifiers=Meta+Button3,clickCount=1] on panel0
+---18.34.48 21.09.2015--Log: Mouse clicked: java.awt.event.MouseEvent[MOUSE_CLICKED,(865,598),absolute(865,598),button=3,modifiers=Meta+Button3,clickCount=1] on panel0
+---18.34.50 21.09.2015--Log: Key pressed: java.awt.event.KeyEvent[KEY_PRESSED,keyCode=18,keyText=Alt,keyChar=Undefiniert keyChar,modifiers=Alt,extModifiers=Alt,keyLocation=KEY_LOCATION_LEFT,rawCode=18,primaryLevelUnicode=0,scancode=56,extendedKeyCode=0x12] on panel0
+---18.34.50 21.09.2015--Log: Key pressed: java.awt.event.KeyEvent[KEY_PRESSED,keyCode=115,keyText=F4,keyChar=Undefiniert keyChar,modifiers=Alt,extModifiers=Alt,keyLocation=KEY_LOCATION_STANDARD,rawCode=115,primaryLevelUnicode=0,scancode=62,extendedKeyCode=0x73] on panel0
+---18.34.50 21.09.2015--Log: Closing Game...
+---18.34.50 21.09.2015--Log: Game Closed
