@@ -62,6 +62,17 @@ public class Window extends Frame {
       public void keyPressed(KeyEvent evt) { 
         window_KeyPressed(evt);
       }
+      public void keyReleased(KeyEvent evt) {
+        PlayerManager.keyReleased(evt);
+      }
+    });
+    display.addMouseMotionListener(new MouseMotionListener(){
+      public void mouseMoved(MouseEvent evt){
+        PlayerManager.mouseMoved(evt);
+      }
+      public void mouseDragged(MouseEvent evt){
+        PlayerManager.mouseMoved(evt);
+      }            
     });
     // Ende Listener
     

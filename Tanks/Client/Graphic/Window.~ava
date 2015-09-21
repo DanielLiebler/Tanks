@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import Tanks.Client.Log;
 import Tanks.Client.Main;
+import Tanks.Client.PlayerSystems.*;
 
 
 public class Window extends Frame {
@@ -53,13 +54,6 @@ public class Window extends Frame {
       public void mouseReleased(MouseEvent evt) { 
         window_MouseReleased(evt);
       }
-    });
-    display.addMouseMotionListener(new MouseMotionAdapter() { 
-      public void mouseMoved(MouseEvent evt) { 
-        window_MouseMoved(evt);
-      }
-    });
-    display.addMouseListener(new MouseAdapter() { 
       public void mouseClicked(MouseEvent evt) { 
         window_MouseClicked(evt);
       }
@@ -68,6 +62,17 @@ public class Window extends Frame {
       public void keyPressed(KeyEvent evt) { 
         window_KeyPressed(evt);
       }
+      public void keyReleased(KeyEvent evt) {
+        PlayerManager.keyReleased(evt);
+      }
+    });
+    display.addMouseMotionListener(new MouseMotionListener(){
+      public void mouseMoved(MouseEvent evt){
+        PlayerManager.mouseMoved(evt);
+      }
+      public void mouseDragged(MouseEvent evt){
+        PlayerManager.mouseMoved(evt);
+      }            
     });
     // Ende Listener
     
@@ -79,29 +84,19 @@ public class Window extends Frame {
     Log.write("Mouse pressed: " + evt.toString(), Log.LOGDEPTH_NONE);
   } // end of window_MousePressed
   
-  public void window_MouseMoved(MouseEvent evt) {
-    Log.write("Mouse moved: " + evt.toString(), Log.LOGDEPTH_NONE);
-  } // end of window_MouseMoved
-  
   public void window_MouseReleased(MouseEvent evt) {
     Log.write("Mouse released: " + evt.toString(), Log.LOGDEPTH_NONE);
   } // end of window_MouseReleased
   
-  public void window_WindowLostFocus(WindowEvent evt) {
-    Log.write("Window lost Focus: " + evt.toString(), Log.LOGDEPTH_NONE);
-  } // end of window_WindowLostFocus
-  
   public void window_MouseClicked(MouseEvent evt) {
     Log.write("Mouse clicked: " + evt.toString(), Log.LOGDEPTH_NONE);
+    PlayerManager.click(evt);
   } // end of window_MouseClicked
   
   public void window_KeyPressed(KeyEvent evt) {
-    Log.write("Key pressed: " + evt.toString(), Log.LOGDEPTH_NONE);
+    Log.write("Key pressed: " + evt.toString(), Log.LOGDEPTH_NONE); 
+    PlayerManager.keyPressed(evt);
   } // end of window_KeyPressed
-  
-  public void window_FocusLost(FocusEvent evt) {
-    Log.write("Focus lost: " + evt.toString(), Log.LOGDEPTH_NONE);
-  } // end of window_FocusLost
   
   // Ende Methoden
 } // end of class Window

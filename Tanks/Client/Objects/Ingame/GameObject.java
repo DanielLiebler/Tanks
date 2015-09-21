@@ -1,10 +1,11 @@
 package Tanks.Client.Objects.Ingame;
 
+import Tanks.Client.Objects.Animation;
 import java.awt.image.*;
 import java.util.*;
 
 
-public abstract class GameObject{
+public abstract class GameObject implements Animation{
   protected float x;
   protected float y;         
   protected float szx;
@@ -17,7 +18,8 @@ public abstract class GameObject{
     this.y = y;
     this.szx = szx;
     this.szy = szy;
-    objects.add(this);
+    objects.add(this);  
+    animObj.add(this);
   }
   // Anfang Methoden
   
@@ -33,6 +35,5 @@ public abstract class GameObject{
     this.x = x;
     this.y = y;
   }
-  public void anim(double timeMultiplier){}
   // Ende Methoden
 }

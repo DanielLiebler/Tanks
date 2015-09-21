@@ -15,7 +15,7 @@ import java.util.*;
 import java.io.*;
 
 public class Screendrawer{
-  private static final boolean LOG_FRAME_TIME_ALLOCATION = true;
+  private static final boolean LOG_FRAME_TIME_ALLOCATION = false;
   
   private BufferedImage gameField;
   private Graphics gameFieldDrawer; 
@@ -27,7 +27,12 @@ public class Screendrawer{
   private boolean fog = true;
   private BufferedImage fogCopy;
   private boolean fog_changed = true;
-  private float fog_r = 0.1f;
+  private float fog_r = 0.12f;
+  
+  private ArrayList<FogHole> holes = new ArrayList<FogHole>();
+  
+    private int[][] line = new int[][]{{0,0},{0,0}}; 
+  private int[] point = new int[]{0,0};
   
   public Gamefield game = new Gamefield("Level1.txt");
   
@@ -45,8 +50,19 @@ public class Screendrawer{
     setFog(fog_pos2);
   }
   
+  public void setLine(int x1, int y1, int x2, int y2){
+      line = new int[][]{{x1,y1},{x2,y2}}; 
+    setPoint(x2,y2);
+  }
+  public void setPoint(int x, int y){
+    point = new int[]{x,y};
+  }
   public void setFog(ArrayList<float[]> fog_pos){
     this.fog_pos = fog_pos;
+    holes = new ArrayList<FogHole>();
+    for (int i  = 0; i < fog_pos.size(); i++) {
+      holes.add(new FogHole(fog_pos.get(i), fog_r));
+    } // end of for
     fog_changed = true;
   }
   public void setRenderGamefield(boolean b){
@@ -112,6 +128,14 @@ public class Screendrawer{
       if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Gamefield:            " + System.nanoTime());
       
       //Tanks rendern
+      if(PlayerManager.getActPlayer().getMode() == Player.MODE_DRIVE){
+        aktFrameDrawer.setColor(Color.WHITE);
+        aktFrameDrawer.drawLine(line[0][0], line[0][1], line[1][0], line[1][1]);
+        aktFrameDrawer.fillOval(line[1][0] - 10, line[1][1] - 10, 20, 20);
+        
+        Tank t1 = PlayerManager.getActPlayer().getActTank();
+        aktFrameDrawer.drawOval((int)((t1.getCollisionBoxPos()[0] + t1.getCollisionBoxSize()[0]/2 - Player.driveDis)*Main.getMyWindow().getWidth()), (int)((t1.getCollisionBoxPos()[1] + t1.getCollisionBoxSize()[1]/2)*Main.getMyWindow().getHeight() - Player.driveDis*Main.getMyWindow().getWidth()), (int)(Player.driveDis*Main.getMyWindow().getWidth()*2), (int)(Player.driveDis*Main.getMyWindow().getWidth()*2));
+      }
       for (int i = 0; i < PlayerManager.getPlayers().size(); i++) {
         for (int j = 0; j < PlayerManager.getPlayers().get(i).getTanks().size(); j++) {
           Tank t = PlayerManager.getPlayers().get(i).getTanks().get(j);                                   
@@ -122,7 +146,19 @@ public class Screendrawer{
       
       //Fog of war rendern
       
-      if(fog) aktFrameDrawer.drawImage(getFogOfWar(),0,0,screenBufferObserver);  
+      //Fog erste Variante:  
+      //if(fog) aktFrameDrawer.drawImage(getFogOfWar(),0,0,screenBufferObserver);  
+      
+      //Fog zweite Variante:
+      //aktFrame = FogHole.getFog(aktFrame, TextureManager.getTexture("fog_of_war.png", Main.getMyWindow().getWidth(), Main.getMyWindow().getHeight(), false), holes);
+      
+      //Fog dritte Variante:
+      ///*
+      if (fog) {
+        aktFrameDrawer.drawImage(FogHole.getFog(TextureManager.getTexture("fog_of_war.png", Main.getMyWindow().getWidth(), Main.getMyWindow().getHeight(), false), holes, fog_changed, true),0,0,screenBufferObserver);
+        if (fog_changed) fog_changed = false;   
+      }      //*/
+      
       if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Fog:                  " + System.nanoTime());
       
       //Items rendern
@@ -163,10 +199,10 @@ public class Screendrawer{
       
       float blessRate = 0.05f;
       for (int j = 0; j < fog_pos.size(); j++) {
-        for (float i = 0f; i <= 1f; i += 0.01f) {
-          fowG.setComposite(AlphaComposite.getInstance(AlphaComposite.DST_IN, 1f-i));   
-          fowG.fillOval((int)((fog_pos.get(j)[0]-fog_r+blessRate)*Main.getMyWindow().getWidth()-(1f-i)*blessRate*Main.getMyWindow().getWidth()),(int)((fog_pos.get(j)[1]-fog_r)*Main.getMyWindow().getHeight()-(1f-i)*blessRate*Main.getMyWindow().getWidth()),(int)(((fog_r-blessRate)*2+2*(1f-i)*blessRate)*Main.getMyWindow().getWidth()),(int)(((fog_r-blessRate)*2+2*(1f-i)*blessRate)*Main.getMyWindow().getWidth()));
-        } // end of for    
+        for (float i = 0f; i <= 1f; i += 1f) {
+          fowG.setComposite(AlphaComposite.getInstance(AlphaComposite.DST_IN, 1f-i));  
+          fowG.fillOval((int)((fog_pos.get(j)[0] - fog_r - ((1f-i)*blessRate))*Main.getMyWindow().getWidth()) , (int)((fog_pos.get(j)[1]*Main.getMyWindow().getHeight()) - ((fog_r+(1f-i)*blessRate)*Main.getMyWindow().getWidth())) , (int)((fog_r+(1f-i)*blessRate)*2*Main.getMyWindow().getWidth()) , (int)((fog_r+(1f-i)*blessRate)*2*Main.getMyWindow().getWidth()));
+        } // end of for                                                                                                                                                                                                              
       }
       fogCopy = fow;
       fog_changed = false;
@@ -175,4 +211,11 @@ public class Screendrawer{
       return fogCopy;
     }
   }
+  
+  private void drawHole(Graphics2D g2d, BufferedImage bi, int[] mid, int r, int blessDis){
+    
+    Color c = new Color(0,0,0,0);
+    bi.setRGB(mid[0],mid[1],c.getRGB()); 
+  }
 }
+

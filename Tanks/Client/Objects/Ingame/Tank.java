@@ -1,5 +1,6 @@
 package Tanks.Client.Objects.Ingame;
 
+import Tanks.Client.PlayerSystems.*;
 import Tanks.Client.Graphic.TextureManager; 
 import Tanks.Client.*;
 import java.awt.image.*;
@@ -18,6 +19,8 @@ public class Tank extends GameObject{
   protected boolean isActive = true;
   protected boolean isSelected = false;       
   protected double[] movement = new double[]{0,0};
+  protected double[] end = new double[]{0,0};
+  protected boolean moving = false;
   public double tankRot, turretRot;
   
   public Tank(float x, float y, float szx, float szy){ 
@@ -54,10 +57,21 @@ public class Tank extends GameObject{
     turretRot = 0;
   }
   public void anim(double timeMultiplier){
-    this.setPos((float)(getPos()[0] + movement[0]*timeMultiplier), (float)(getPos()[1] + movement[1]*timeMultiplier));
+    if(moving){
+      if ( (end[0]-(this.getCollisionBoxPos()[0] + this.getCollisionBoxSize()[0]/2))/movement[0] > 0 && (end[1]-(this.getCollisionBoxPos()[1] + this.getCollisionBoxSize()[1]/2))/movement[1] > 0 ) {
+        this.setPos((float)(getPos()[0] + movement[0]*timeMultiplier), (float)(getPos()[1] + movement[1]*timeMultiplier));  
+        PlayerManager.getActPlayer().changeFog();
+      } else {
+        moving = false;
+        this.setCollisionBoxPos((float)(end[0] - this.getCollisionBoxSize()[0]/2), (float)(end[1] - this.getCollisionBoxSize()[1]/2));    
+        PlayerManager.getActPlayer().changeFog();
+      } // end of if-else                
+    }
   }
-  public void setMovement(double x, double y){
-    movement = new double[]{x,y};
+  public void setMovement(double x, double y, double ex, double ey){
+    movement = new double[]{x,y};                          
+    end = new double[]{ex,ey};
+    moving = true;
   }
   public boolean isActive(){
     return isActive;
@@ -68,6 +82,9 @@ public class Tank extends GameObject{
   }
   public void deSelectTank(){
     isSelected = false;
+  }  
+  public void setCollisionBoxPos(float x, float y){
+    this.setPos(x - 0.25f*szx, y - 0.25f*szy);
   }
   public float[] getCollisionBoxPos(){
     return new float[]{this.x + 0.25f*szx, this.y + 0.25f*szy};

@@ -1,5 +1,6 @@
 package Tanks.Client;
 
+import Tanks.Client.Objects.Animation;
 import Tanks.Client.Objects.Ingame.GameObject;
 import Tanks.Client.Graphic.Window;
 import Tanks.Client.Graphic.Screendrawer;
@@ -11,15 +12,15 @@ import Tanks.Client.PlayerSystems.*;
 
 
 public class Main{
-  private static final boolean LOG_ENABLED = false;
-  private static final int LOG_LEVEL = Log.LOGDEPTH_NONE;
+  private static final boolean LOG_ENABLED = true;
+  private static final int LOG_LEVEL = Log.LOGDEPTH_High;
   
   private static Window myWindow;
   private static boolean endGame = false;
   private static Screendrawer sd;
   
   public static int MOUSEBUTTON_SELECT_TANK = MouseEvent.BUTTON1;  
-  public static int MOUSEBUTTON_MOVE_TANK = MouseEvent.BUTTON2;
+  public static int MOUSEBUTTON_MOVE_TANK = MouseEvent.BUTTON3;
   
   public static final int KEY_FORWARD     = KeyEvent.VK_W;  
   public static final int KEY_FORWARD_SEC = KeyEvent.VK_UP;
@@ -30,10 +31,15 @@ public class Main{
   public static final int KEY_BACK        = KeyEvent.VK_S;
   public static final int KEY_BACK_SEC    = KeyEvent.VK_DOWN;
   public static final int KEY_SHOOT       = KeyEvent.VK_SPACE;        
-  public static final int KEY_SHOOT_SEC   = -2;
+  public static final int KEY_SHOOT_SEC   = -2;               
+  public static final int KEY_SEL_DRIVE   = KeyEvent.VK_1; 
+  public static final int KEY_SEL_SHOOT   = KeyEvent.VK_2; 
+  public static final int KEY_SEL_IDLE    = KeyEvent.VK_3; 
   //public static int KEY_ = KeyEvent;
   
   public static void main(String[] args) {
+    System.setProperty("sun.java2d.d3d", "True");
+    System.out.println((String) java.security.AccessController.doPrivileged(new sun.security.action.GetPropertyAction("java.awt.graphicsenv", null)));
     Log.enable(LOG_ENABLED);
     Log.logDepth = LOG_LEVEL;
     Log.write("Game started", Log.LOGDEPTH_NONE);
@@ -44,8 +50,8 @@ public class Main{
     while (!endGame) { 
       sd.draw();
       
-      for (int i = 0; i < GameObject.objects.size(); i++) {
-        GameObject.objects.get(i).anim(1);
+      for (int i = 0; i < Animation.animObj.size(); i++) {
+        Animation.animObj.get(i).anim(1);
       } // end of for
     }
     myWindow.dispose();
