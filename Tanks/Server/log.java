@@ -26,7 +26,7 @@ public class log {
     System.out.println("---Log: init");
     
     try {
-      File file = new File("log.txt");
+      File file = new File("LOG.log");
       
       if (!file.exists()) {
         file.createNewFile();
