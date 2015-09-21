@@ -3,6 +3,7 @@ package Tanks.Client.PlayerSystems;
 import Tanks.Client.*;
 import Tanks.Client.Objects.Animation;
 import Tanks.Client.Objects.Ingame.*;   
+import Tanks.Client.Objects.Gui.Menu;
 import java.awt.event.*;
 import java.util.*;
 
@@ -228,7 +229,9 @@ public class Player implements Animation{
         
       } 
       break;
-      
+      case Main.KEY_MENU: case Main.KEY_MENU_SEC:
+      Menu.showPauseMenu(!Menu.getPauseMenuShown());
+      break;
     }
   }
   public void keyReleased(KeyEvent evt){

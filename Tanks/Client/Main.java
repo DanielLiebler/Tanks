@@ -35,7 +35,8 @@ public class Main{
   public static final int KEY_SEL_DRIVE   = KeyEvent.VK_1; 
   public static final int KEY_SEL_SHOOT   = KeyEvent.VK_2; 
   public static final int KEY_SEL_IDLE    = KeyEvent.VK_3;   
-  public static final int KEY_MENU        = KeyEvent.VK_ESCAPE; 
+  public static final int KEY_MENU        = KeyEvent.VK_ESCAPE;  
+  public static final int KEY_MENU_SEC    = KeyEvent.VK_PAUSE;
   //public static int KEY_ = KeyEvent;
   
   public static void main(String[] args) {
