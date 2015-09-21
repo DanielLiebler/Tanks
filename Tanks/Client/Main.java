@@ -11,8 +11,8 @@ import Tanks.Client.PlayerSystems.*;
 
 
 public class Main{
-  private static final boolean LOG_ENABLED = true;
-  private static final int LOG_LEVEL = Log.LOGDEPTH_High;
+  private static final boolean LOG_ENABLED = false;
+  private static final int LOG_LEVEL = Log.LOGDEPTH_NONE;
   
   private static Window myWindow;
   private static boolean endGame = false;
@@ -73,6 +73,8 @@ public class Main{
       PlayerManager.addPlayer(new Player(names[i], tanks));
     } // end of for
     
+    PlayerManager.getActPlayer().iniNewRound();
+    
     sd.setRenderGamefield(true);
   }
   
@@ -83,5 +85,8 @@ public class Main{
   public static void setEndGame(boolean end){
     Log.write("Closing Game...", Log.LOGDEPTH_NONE);
     endGame = end;
+  }
+  public static Screendrawer getSD(){
+    return sd;
   }
 }

@@ -13,6 +13,9 @@ public class PlayerManager{
   public static ArrayList<Player> getPlayers() {
     return players;
   }
+  public static Player getActPlayer() {
+    return players.get(actPlayer);
+  }
   
   public static void rotate(){
     actPlayer++;
@@ -22,6 +25,7 @@ public class PlayerManager{
     if (!players.get(actPlayer).isActive()) {
       rotate();
     }
+    players.get(actPlayer).iniNewRound();
   }
   public static void click(MouseEvent evt){
     if (players.size() > 0) players.get(actPlayer).click(evt);

@@ -24,15 +24,13 @@ public class Player{
     return myTanks;
   }
   
-  public void iniNewRound(){
+  public void initializeRound(){
     ArrayList<float[]> fog = new  ArrayList<float[]>();
     for (int i = 0; i < myTanks.size(); i++) {
-      fog.add(new float[]{(float)(myTanks.get(i).getCollisionBoxPos()[0] + myTanks.get(i).getCollisionBoxSize()[0]*0.5), (float)(myTanks.get(i).getCollisionBoxPos()[1] + myTanks.get(i).getCollisionBoxSize()[1]*0.5)});
-    }   
-    Main.getSD().setFog(fog);
+      fog.add(new float[]{myTanks.get(i).getCollisionBoxPos()[0] + myTanks.get(i).getCollisionBoxSize()[0]*0.5,myTanks.get(i).getCollisionBoxPos()[1] + myTanks.get(i).getCollisionBoxSize()[1]*0.5});       
+    }
+    Main.getSD.setFog(fog);        
   }
-  
-  
   
   public void click(MouseEvent evt){
     if(evt.getButton() == Main.MOUSEBUTTON_SELECT_TANK){ 

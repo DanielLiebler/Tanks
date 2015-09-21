@@ -15,6 +15,7 @@ import java.util.*;
 import java.io.*;
 
 public class Screendrawer{
+  private static final boolean LOG_FRAME_TIME_ALLOCATION = true;
   
   private BufferedImage gameField;
   private Graphics gameFieldDrawer; 
@@ -66,6 +67,7 @@ public class Screendrawer{
   public void draw(){
     Log.write("starting new Frame", Log.LOGDEPTH_Irreal_High); 
     
+    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Start Frame:                " + System.nanoTime());
     if(fps_enable){
       fps = 1000/(double)(System.currentTimeMillis()-lastTime);
       //Log.write("FPS: " + fps, Log.LOGDEPTH_NONE);
@@ -82,9 +84,9 @@ public class Screendrawer{
     ImageAvailabilityChecker screenBufferObserver = new ImageAvailabilityChecker();
     
     BufferedImage aktFrame = new BufferedImage((int) Main.getMyWindow().getWidth(), (int) Main.getMyWindow().getHeight(), BufferedImage.TYPE_INT_ARGB_PRE);
-    Graphics aktFrameDrawer = aktFrame.getGraphics();         
-    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Initialized BufferedImages: " + System.currentTimeMillis());
+    Graphics aktFrameDrawer = aktFrame.getGraphics();
     
+    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("initialized BufferedImages: " + System.nanoTime());
     if(renderGamefield && !pauseGame){
       
       //Spielfeld rendern
@@ -106,8 +108,8 @@ public class Screendrawer{
         
         gameFieldChanged = false;
       } 
-      aktFrameDrawer.drawImage(gameField, 0, 0, screenBufferObserver);    
-      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Gamefield:            " + System.currentTimeMillis());
+      aktFrameDrawer.drawImage(gameField, 0, 0, screenBufferObserver);   
+      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Gamefield:            " + System.nanoTime());
       
       //Tanks rendern
       for (int i = 0; i < PlayerManager.getPlayers().size(); i++) {
@@ -115,13 +117,13 @@ public class Screendrawer{
           Tank t = PlayerManager.getPlayers().get(i).getTanks().get(j);                                   
           aktFrameDrawer.drawImage(t.getTexture(), (int)(t.getPos()[0]*Main.getMyWindow().getWidth()), (int)(t.getPos()[1]*Main.getMyWindow().getHeight()), screenBufferObserver);
         } // end of for
-      } // end of for                         
-      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Tanks:                " + System.currentTimeMillis());
+      } // end of for                                                                   
+      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Tanks:                " + System.nanoTime());
       
       //Fog of war rendern
       
       if(fog) aktFrameDrawer.drawImage(getFogOfWar(),0,0,screenBufferObserver);  
-      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Fog:                  " + System.currentTimeMillis());
+      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn Fog:                  " + System.nanoTime());
       
       //Items rendern
       
@@ -129,24 +131,26 @@ public class Screendrawer{
     //GUI rendern
     for (int i = 0; i<guiElements.size(); i++) {
       aktFrameDrawer.drawImage(guiElements.get(i).getTexture(), (int)(guiElements.get(i).getPos()[0]*Main.getMyWindow().getWidth()), (int)(guiElements.get(i).getPos()[1]*Main.getMyWindow().getHeight()), screenBufferObserver);
-    } // end of for   
-    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn GUI:                  " + System.currentTimeMillis());
+    } // end of for                        
+    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn GUI:                  " + System.nanoTime());
     
     if(fps_enable){
       aktFrameDrawer.setColor(Color.BLUE);
       aktFrameDrawer.setFont(new Font("fps", Font.PLAIN, 30));
       aktFrameDrawer.drawString("FPS: " + fps, 10, 100);
+      //Main.getMyWindow().display.getGraphics().clearRect(10,10,300,300);
+      //Main.getMyWindow().display.getGraphics().drawString("FPS: " + fps, 10, 100); 
+      if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn FPS:                  " + System.nanoTime());
     }
     
-    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("Drawn FPS:                  " + System.currentTimeMillis());
     //rendern Ende
     
     while (Main.getMyWindow().display.getGraphics() == null) { 
       Log.write("waiting for displays Graphics", Log.LOGDEPTH_High);
     }
     Log.write("Frame: " + aktFrame, Log.LOGDEPTH_Irreal_High);
-    Main.getMyWindow().display.getGraphics().drawImage(aktFrame, 0, 0, screenBufferObserver);   
-    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("End of Frame:               " + System.currentTimeMillis());
+    Main.getMyWindow().display.getGraphics().drawImage(aktFrame, 0, 0, Color.BLACK, screenBufferObserver);     
+    if(LOG_FRAME_TIME_ALLOCATION) System.out.println("End of Frame:               " + System.nanoTime());
   }
   
   public BufferedImage getFogOfWar(){
