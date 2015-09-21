@@ -1,0 +1,36 @@
+object window: TFGUIFormular
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Window'
+  ClientHeight = 272
+  ClientWidth = 294
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = True
+  Position = poDesigned
+  ShowHint = True
+  Visible = True
+  WindowState = wsMaximized
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  FrameType = 2
+  Resizable = False
+  Undecorated = False
+  Background = clWhite
+  focusLost = 'window_FocusLost'
+  keyPressed = 'window_KeyPressed'
+  mouseClicked = 'window_MouseClicked'
+  mousePressed = 'window_MousePressed'
+  mouseReleased = 'window_MouseReleased'
+  mouseMoved = 'window_MouseMoved'
+  windowLostFocus = 'window_WindowLostFocus'
+  PixelsPerInch = 96
+  TextHeight = 13
+end

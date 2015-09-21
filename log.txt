@@ -1,0 +1,302 @@
+---23.15.34 10.07.2014--Log: Game started
+---23.15.34 10.07.2014--Log: Creating Window: Window, Fullscreen: true, Size: 1920,1080
+---23.15.34 10.07.2014--Log: loadMap('Saves\Level1.txt') of Gamefield Tanks.Client.Objects.Ingame.Gamefield@e582e17
+---23.15.34 10.07.2014--Log: Textur(tex/tank.png) geladen
+---23.15.34 10.07.2014--Log: rescaling Texture(BufferedImage@6aa91761: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@33e17fc transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 128 height = 128 #numDataElements 4 dataOff[0] = 3) to 345/345
+---23.15.34 10.07.2014--Log: Textur(tex/tank_color.png) geladen
+---23.15.34 10.07.2014--Log: rescaling Texture(BufferedImage@7790ec59: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@33e17fc transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 128 height = 128 #numDataElements 4 dataOff[0] = 3) to 345/345
+---23.15.34 10.07.2014--Log: Textur(tex/turret.png) geladen
+---23.15.34 10.07.2014--Log: rescaling Texture(BufferedImage@5ce1f2b6: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@33e17fc transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 128 height = 128 #numDataElements 4 dataOff[0] = 3) to 345/345
+---23.15.34 10.07.2014--Log: Textur(tex/turret_color.png) geladen
+---23.15.34 10.07.2014--Log: rescaling Texture(BufferedImage@25cf00a1: type = 6 ColorModel: #pixelBits = 32 numComponents = 4 color space = java.awt.color.ICC_ColorSpace@33e17fc transparency = 3 has alpha = true isAlphaPre = false ByteInterleavedRaster: width = 128 height = 128 #numDataElements 4 dataOff[0] = 3) to 345/345
+---23.15.34 10.07.2014--Log: Gameloop started
+---23.15.34 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Textur(tex/gras.png) geladen
+---23.15.35 10.07.2014--Log: rescaling Texture(BufferedImage@2d7fbbd6: type = 5 ColorModel: #pixelBits = 24 numComponents = 3 color space = java.awt.color.ICC_ColorSpace@33e17fc transparency = 1 has alpha = false isAlphaPre = false ByteInterleavedRaster: width = 1024 height = 1024 #numDataElements 3 dataOff[0] = 2) to 1920/1080
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@71ebfc42: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@3bfe8b7c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@4d9104e3: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@6bd7fadd: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@512733fc: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@64c60f03: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@27a70128: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@453cfd6e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@f32b694: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@4a70b657: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@71719f6d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@5a99e74a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@6ec43a7a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@14db5866: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@539904f4: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@63145a0c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@3e8e5360: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@7203e3b5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@1e26fc47: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@117ca8c8: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@29a260e7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@6387f30b: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@3cc433cb: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@75247397: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@6219232f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@605514f9: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@54231c3: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@3cd0fbe7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@32827b51: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@146e1cbf: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@4f744996: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@5b8b3f9a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@184ce1cd: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@5f7c6631: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@5e43e3ac: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@3b18618d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@305cc7a5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@1b373a71: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@b856c2c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@6480c29c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@5ffa6e43: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@325d21ef: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@22491a97: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@6d70c116: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@afe1bc5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@30d12826: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@632c17b6: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@63c8e097: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@15ee86f2: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: Frame: BufferedImage@5edd851d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.35 10.07.2014--Log: starting new Frame
+---23.15.35 10.07.2014--Log: Tank returned: BufferedImage@1fde3a4e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@36c5e73a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@20de42ca: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@5ff2eca1: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@10123eee: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@1de18380: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@7db4aa68: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@601fd251: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@10e76514: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@479d0cb7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@f7df584: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@1681b50e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@4e33967b: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@1cdc8d59: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@6f14021e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@a97388b: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@15de3027: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@2e2b5ba8: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@df8a03f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@3de08f43: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@4e8d69f8: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@26284112: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@1da30367: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@39346e64: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@69d5ee81: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@5c1d8d6f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@2a4c6a7d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@7ee34a3c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@17f99aa6: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@48ef85f3: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@3993340f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@6f3ee250: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@1c14a519: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@f631ab6: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@75ce5af9: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@3eb6cddb: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@7efaa9e2: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@7aa7758e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@511df625: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@60b20be: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@405a2273: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@5d8bcd06: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@2c6edffb: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@2332ee87: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@41c85632: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@47930e5b: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@7eeab576: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@632f9712: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@67a7422e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@15ea0f2c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@1f9bb21f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@26cb216f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@3e4327dc: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@2aedfc73: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@3aff8399: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@5d18d011: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@2d597115: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@4b0f30f5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@15bc391f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@784a2d5e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@17202871: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@403f1e93: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@4adc504d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@461c15a0: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.36 10.07.2014--Log: Tank returned: BufferedImage@41750ae1: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: Frame: BufferedImage@6b1d5b59: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.36 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@26434ff9: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@d37780f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@6d1692c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@1e4fcb33: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@175cb80: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@5c83413f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@bd649c5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@21852a95: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@69211341: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@7a774652: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@77cd6a5b: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@4f01b9cf: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@41ba0b7c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@1d481b9a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4bdc0bc7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@5b895cb9: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@78a6edb5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@174043f5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4ce90706: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@56cc425c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@713f8452: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@1085d94: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4feb0640: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@4ee77cbd: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@5be95c69: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@35b220a3: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4688249c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@141ba1f1: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@698add5e: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@1bcb7c74: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@1fc202e5: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@7a4c18ac: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@5744f05f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@6f0119bb: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4f758781: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@2d134ee8: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@6b95d875: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@3ab62081: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@61d83ac7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@3afb1100: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@53895c4c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@5f0aac6c: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4682190a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@73a03b0: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@642bd560: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@79c5c500: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@44edb080: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@50dec6da: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@65ef58c6: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@44ad6372: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@29da6054: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@3fea4043: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@4d4beca0: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@339c2405: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@38135151: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@7c3fb999: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@69fe17d: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@6a8cd8f0: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Key pressed: java.awt.event.KeyEvent[KEY_PRESSED,keyCode=18,keyText=Alt,keyChar=Undefiniert keyChar,modifiers=Alt,extModifiers=Alt,keyLocation=KEY_LOCATION_LEFT,rawCode=18,primaryLevelUnicode=0,scancode=56,extendedKeyCode=0x12] on frame0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@21ec08c7: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@f345237: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@63815364: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@3f89fd45: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@2f023661: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@3a403263: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: starting new Frame
+---23.15.37 10.07.2014--Log: Tank returned: BufferedImage@3c22d4f0: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.37 10.07.2014--Log: Frame: BufferedImage@12c9f768: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: starting new Frame
+---23.15.38 10.07.2014--Log: Tank returned: BufferedImage@5b0508f3: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: Frame: BufferedImage@278eb834: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: starting new Frame
+---23.15.38 10.07.2014--Log: Tank returned: BufferedImage@7a3d8738: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: Frame: BufferedImage@5d78ac3a: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: starting new Frame
+---23.15.38 10.07.2014--Log: Key pressed: java.awt.event.KeyEvent[KEY_PRESSED,keyCode=115,keyText=F4,keyChar=Undefiniert keyChar,modifiers=Alt,extModifiers=Alt,keyLocation=KEY_LOCATION_STANDARD,rawCode=115,primaryLevelUnicode=0,scancode=62,extendedKeyCode=0x73] on frame0
+---23.15.38 10.07.2014--Log: Closing Game...
+---23.15.38 10.07.2014--Log: Tank returned: BufferedImage@471f4073: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 345 height = 345 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: Frame: BufferedImage@54c0627f: type = 3 DirectColorModel: rmask=ff0000 gmask=ff00 bmask=ff amask=ff000000 IntegerInterleavedRaster: width = 1920 height = 1080 #Bands = 4 xOff = 0 yOff = 0 dataOffset[0] 0
+---23.15.38 10.07.2014--Log: Game Closed
+---23.15.38 10.07.2014--Log: Focus lost: java.awt.FocusEvent[FOCUS_LOST,permanent,opposite=null,cause=CLEAR_GLOBAL_FOCUS_OWNER] on Tanks.Client.Graphic.Window[frame0,0,0,1920x1080,invalid,hidden,layout=java.awt.BorderLayout,title=Window,normal]
+---23.15.38 10.07.2014--Log: Window lost Focus: sun.awt.TimedWindowEvent[WINDOW_LOST_FOCUS,opposite=null,oldState=0,newState=0] on frame0
