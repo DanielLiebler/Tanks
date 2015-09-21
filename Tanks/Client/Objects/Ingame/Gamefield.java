@@ -6,7 +6,9 @@ import java.io.*;
 
 public class Gamefield{
   private ArrayList<Obstacle> obstacles = new ArrayList<Obstacle>();
-  private ArrayList<float[]> starts = new ArrayList<float[]>();
+  private ArrayList<float[]> starts = new ArrayList<float[]>();     
+  private ArrayList<int[]> teamStarts = new ArrayList<int[]>();
+  private String backTexture = "gras.png"; 
   
   // Ende Attribute
   
@@ -31,7 +33,32 @@ public class Gamefield{
   public int getObstacleLength(){
     return obstacles.size();
   }
-  
+  public String getBackTexture(){
+    return backTexture;
+  }
+  public ArrayList<float[]> getTeamStarts(int team){
+    ArrayList<float[]> retList = new ArrayList<float[]>();
+    for (int i = 0; i<teamStarts.get(team).length; i++) {
+      retList.add(starts.get(teamStarts.get(team)[i]));
+    } // end of for
+    return retList;
+  }
+  private void addTeamstart(int team, float x, float y){
+    if(teamStarts.size() > team){
+      int[] tstarts = new int[teamStarts.get(team).length + 1];
+      for (int i = 0; i < tstarts.length - 1; i++) {
+        tstarts[i] = teamStarts.get(team)[i];
+      } // end of for
+      starts.add(new float[]{x,y});
+      tstarts[tstarts.length - 1] = starts.size()-1;
+      teamStarts.set(team, tstarts);      
+    }else{
+      starts.add(new float[]{x,y});
+      int[] tstarts = new int[1];
+      tstarts[0] = starts.size()-1;
+      teamStarts.add(tstarts);
+    }
+  }
   public boolean loadMap(String filename){       
     Log.write("loadMap('Saves\\" + filename + "') of Gamefield " + this, Log.LOGDEPTH_High); 
     try{
@@ -55,7 +82,7 @@ public class Gamefield{
           value.useDelimiter(",");
           startx = Float.parseFloat(value.next()); 
           starty = Float.parseFloat(value.next()); 
-          starts.add(new float[]{startx, starty});   
+          addTeamstart(Integer.parseInt(value.next()), startx, starty);   
         }
       }
       

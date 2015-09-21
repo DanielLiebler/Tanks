@@ -9,12 +9,14 @@ import java.util.*;
 
 public class Tank extends GameObject{
   
+  private static final float OFFSETX = -0.0658f, OFFSETY = -0.1143f, OFFSETSZX = 0.1517f, OFFSETSZY = 0.2783f;
+  
   protected BufferedImage textureTank;
   protected BufferedImage textureTurret;
   public double tankRot, turretRot;
   
   public Tank(float x, float y, float szx, float szy){ 
-    super(x,y,szx,szy);
+    super(x+OFFSETX,y+OFFSETY,szx+OFFSETSZX,szy+OFFSETSZY);
     int r,g,b;
     Random r1 = new Random();
     
@@ -25,7 +27,7 @@ public class Tank extends GameObject{
     init(r,g,b);
   }
   public Tank(float x, float y, float szx, float szy, int r, int g, int b){   
-    super(x,y,szx,szy);
+    super(x+OFFSETX,y+OFFSETY,szx+OFFSETSZX,szy+OFFSETSZY);
     init(r,g,b);
   }
   public void init(int r, int g, int b){
@@ -38,6 +40,12 @@ public class Tank extends GameObject{
     
     tankRot = 0;
     turretRot = 0;
+  }
+  public float[] getCollisionBoxPos(){
+    return new float[]{this.x - OFFSETX, this.y - OFFSETY};
+  }
+  public float[] getCollisionBoxSize(){
+    return new float[]{this.szx - OFFSETSZX, this.szy - OFFSETSZY};
   }
   public BufferedImage getTexture(){
     BufferedImage ret = new BufferedImage(textureTank.getWidth(), textureTank.getHeight(), BufferedImage.TYPE_INT_ARGB_PRE);

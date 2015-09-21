@@ -12,14 +12,18 @@ public class TextureManager{
   private static ArrayList<int[]> imgScales = new ArrayList<int[]>();  
   private static ArrayList<String> imgNames = new ArrayList<String>();
   
-  public static BufferedImage getTexture(String texName, int x, int y){
+  public static BufferedImage getTexture(String texName, int x, int y, boolean load){
     int indx = imgNames.indexOf(texName);
     if (indx >= 0) {
-      if(x == imgScales.get(indx)[0] && y == imgScales.get(indx)[1]){
-        return imgList.get(indx);
-      }else{
+      if(load){    
         return loadTexture(texName, x, y);
-      }  
+      }else{
+        if(x == imgScales.get(indx)[0] && y == imgScales.get(indx)[1]){
+          return imgList.get(indx);
+        }else{
+          return loadTexture(texName, x, y);
+        }           
+      }
     }else{
       return loadTexture(texName, x, y);
     }

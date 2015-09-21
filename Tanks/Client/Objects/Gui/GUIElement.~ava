@@ -1,0 +1,40 @@
+package Tanks.Client.Objects.Gui;
+
+import Tanks.Client.*;
+import java.awt.image.*;
+import java.util.*;
+import java.awt.font.*;
+import java.awt.*;
+import java.awt.geom.*;
+
+public class GUIElement{
+  private boolean hasText;
+  private ArrayList<String> text;
+  private BufferedImage myTexture;
+  private float x,y,szx,szy;
+  
+  public GUIElement(float x, float y, float szx, float szy, boolean hasText, ArrayList<String> text){
+    this.hasText = hasText;
+    this.text = text;
+  }
+  public GUIElement(float x, float y, float szx, float szy, boolean hasText, ArrayList<String> text, BufferedImage myTexture){
+    this(x,y,szx,szy,hasText, text);
+    this.myTexture = myTexture;
+  }
+  
+  public BufferedImage getTexture(){
+    BufferedImage retTexture = myTexture;
+    
+    Font f1 = new Font("", Font.PLAIN, 10);
+    for (int i = 0; i<text.size(); i++) {
+      float textX = 0, textY = 0; 
+      FontRenderContext frc = retTexture.createGraphics().getFontRenderContext();
+      Rectangle2D = f1.getStringBounds(text.get(i), frc);
+    }
+    for (int i = 0; i<text.size(); i++; ) {
+      retTexture.getGraphics().setFont(f1);
+      retTexture.getGraphics().drawString(text.get(i),(int)(textX*Main.getMyWindow().getWidth()),(int)(textY*Main.getMyWindow().getHeight()));   
+    }
+    return retTexture;
+  }
+}

@@ -6,7 +6,7 @@ import Tanks.Client.Graphic.Screendrawer;
 
 public class Main{
   private static final boolean LOG_ENABLED = true;
-  private static final int LOG_LEVEL = Log.LOGDEPTH_Irreal_High;
+  private static final int LOG_LEVEL = Log.LOGDEPTH_Middle;
   
   private static Window myWindow;
   private static boolean endGame = false;

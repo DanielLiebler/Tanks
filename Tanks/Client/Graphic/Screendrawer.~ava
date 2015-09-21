@@ -27,7 +27,7 @@ public class Screendrawer{
   private boolean renderGamefield = true;
   private boolean pauseGame = false;
   
-  private Tank t1 = new Tank(0.19f,0.5f,0.18f,0.32f,64,64,255);
+  private Tank t1 = new Tank(0f,0f,0.18f,0.32f,64,64,255);
   private float movement = 0.01f;
   
   public void draw(){
@@ -82,7 +82,7 @@ public class Screendrawer{
         }else if (t1.getPos()[1] > 0.8){
           movement = -0.01f;
         }
-        t1.setPos(t1.getPos()[0], t1.getPos()[1] + movement);
+        //t1.setPos(t1.getPos()[0], t1.getPos()[1] + movement);
         tanksImageChanged = true;
       }else{
         tanksImageChanged = true;
