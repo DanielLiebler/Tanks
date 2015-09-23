@@ -229,9 +229,6 @@ public class Player implements Animation{
         
       } 
       break;
-      case Main.KEY_MENU: case Main.KEY_MENU_SEC:
-      Menu.showPauseMenu(!Menu.getPauseMenuShown());
-      break;
     }
   }
   public void keyReleased(KeyEvent evt){

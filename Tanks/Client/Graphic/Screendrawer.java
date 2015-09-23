@@ -77,8 +77,11 @@ public class Screendrawer{
   public void addGui(GUIElement g){
     guiElements.add(g);
   }
-  public void removeGui(GUIElement g){
+  public void removeGui(GUIElement g){               
+    System.out.println("GUI contains " + guiElements.size());
     guiElements.remove(g);
+    System.out.println("removing " + g);
+    System.out.println("GUI now contains " + guiElements.size());
   }
   public void draw(){
     Log.write("starting new Frame", Log.LOGDEPTH_Irreal_High); 

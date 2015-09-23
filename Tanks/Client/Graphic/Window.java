@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 import Tanks.Client.Log;
 import Tanks.Client.Main; 
+import Tanks.Client.Objects.Gui.Menu;
 import Tanks.Client.Objects.Gui.GUIElement;
 import Tanks.Client.PlayerSystems.*;
 
@@ -95,7 +96,10 @@ public class Window extends Frame {
     ArrayList<GUIElement> guiElements = Main.getSD().getGUI();
     
     for (int i = 0; i < guiElements.size(); i++) {
-      
+      if(guiElements.get(i).onClick(evt) == true){
+        System.out.println("catching keystroke");
+        return;
+      }
     } // end of for
     
     PlayerManager.click(evt);
@@ -103,7 +107,11 @@ public class Window extends Frame {
   
   public void window_KeyPressed(KeyEvent evt) {
     Log.write("Key pressed: " + evt.toString(), Log.LOGDEPTH_NONE); 
-    PlayerManager.keyPressed(evt);
+    if(evt.getKeyCode() == Main.KEY_MENU || evt.getKeyCode() == Main.KEY_MENU_SEC){
+      Menu.showPauseMenu(!Menu.getPauseMenuShown());  
+    }else{
+      PlayerManager.keyPressed(evt);   
+    }
   } // end of window_KeyPressed
   
   // Ende Methoden

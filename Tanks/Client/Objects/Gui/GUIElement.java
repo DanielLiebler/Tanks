@@ -40,13 +40,12 @@ public class GUIElement{
     onClick.add(e);
   }
   public boolean onClick(MouseEvent evt){
-    float posx = evt.getX()/Main.getMyWindow().getWidth();
-    float posy = evt.getY()/Main.getMyWindow().getHeight();
+    float posx = (float)(((double)evt.getX())/((double)Main.getMyWindow().getWidth()));
+    float posy = (float)(((double)evt.getY())/((double)Main.getMyWindow().getHeight()));   
     if(posx >= this.getPos()[0] && posx <= (this.getPos()[0]+this.getSize()[0]) && posy >= this.getPos()[1] && posy <= (this.getPos()[1]+this.getSize()[1])){
-      for(int i = 0; i < onClick.size(); i++){
-        onClick.get(i).run(evt);
+      for(int i = 0; i < onClick.size(); i++){     
+        if((boolean)onClick.get(i).run(evt)) return true;
       }
-      return true;
     }
     return false;
   }
@@ -75,5 +74,9 @@ public class GUIElement{
       gra.drawString(text[i],textX,(int)((i+1)*yOffsetPerLine + textY)); 
     }
     return retTexture;
+  }
+  
+  public String toString(){
+    return ("GUIElement title=" + text[0] + ", tex=" + myTexture);
   }
 }
