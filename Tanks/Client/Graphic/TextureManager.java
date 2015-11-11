@@ -30,14 +30,19 @@ public class TextureManager{
   }
   private static BufferedImage loadTexture(String texName, int x, int y){
     try {       
-      BufferedImage texture = ImageIO.read(new File("tex/" + texName));      
-      
-      
-      Log.write("Textur(tex/" + texName + ") geladen", Log.LOGDEPTH_Middle);
-      imgList.add(scaleTexture(texture, x, y));
-      imgScales.add(new int[]{x, y});
-      imgNames.add(texName);
-      return imgList.get(imgList.size()-1);
+      if(texName.charAt(0) == '\\'){
+        
+      }else{
+        
+        BufferedImage texture = ImageIO.read(new File("tex/" + texName));      
+        
+        
+        Log.write("Textur(tex/" + texName + ") geladen", Log.LOGDEPTH_Middle);
+        imgList.add(scaleTexture(texture, x, y));
+        imgScales.add(new int[]{x, y});
+        imgNames.add(texName);
+        return imgList.get(imgList.size()-1);   
+      }
     } catch (IOException e) {
       Log.write("Fehler beim Laden von tex/" + texName + ": " + e.toString(), true);         
     }  
